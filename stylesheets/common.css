@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background: #EEE;
+	}
+.header{
+	width:1100px;
+	height:145px;
+	border-radius:5px;
+	background: url(../images/banner_top.jpg);
+	background-size:100%;
+	margin:0 auto;
+	overflow:hidden;
+	}
+.header img{
+	margin-top:20px;
+	float:left;
+	}
+.header-box{
+	width:300px;
+	height:70px;
+	float:left;
+	margin-top:20px;
+	margin-left:150px;
+	}
+.box-text li{
+	padding-top:10px;
+	display:block;
+	text-align:center;
+	font-weight:bold;
+	position:relative;
+	animation-name:myfirst;
+	animation-duration:3s;
+	animation-timing-function: ease-out;
+	animation-direction: normal;
+	animation-play-state:running;
+	}
+@keyframes myfirst
+{
+0%   {left:0px; top:0px;}
+100%  {left:100px; top:0px;}
+
+}
+.box-text li:nth-child(1){
+	-webkit-animation-delay: 0s;
+			animation-delay: 0s;
+	}
+.box-text li:nth-child(2){
+	-webkit-animation-delay: 3s;
+			animation-delay: 3s;
+	}
+.box-text li:nth-child(3){
+	-webkit-animation-delay: 6s;
+			animation-delay: 6s;
+	}
+.box-text-li{
+	float:right;
+	}
+.header-rightimg img{
+	width:200px;
+	float:right;
+	transform: rotate(-40deg);
+	}
+.nav ul{
+	width:1100px;
+	height:55px;
+	background: #0CF;
+	margin:0 auto;
+	border-radius:5px;
+	}
+.nav ul li{
+	width:150px;
+	height:55px;
+	line-height:55px;
+	color:#FFF;
+	font-size:24px;
+	text-align:center;
+	}
+.nav ul li a{
+	color:#FFF;
+	text-decoration:none;
+	}
+.nav ul li:hover{
+	background:#F09;
+	border-radius:5px;
+	}
+	
+/*下面是尾部*/
+.footer{
+	width:1100px;
+	height:50px;
+	margin:20px auto 0;
+	}
+.footer p{
+	text-align:center;
+	line-height:50px;
+	}

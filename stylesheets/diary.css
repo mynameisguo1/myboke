@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+.nav ul li:nth-child(4){
+	background:#F09;
+	border-radius:5px;
+	}
+.location{
+	width:1100px;
+	height:50px;
+	margin:0 auto;
+	}
+.location img{
+	float:left;
+	margin-top:15px;
+	}
+.location p{
+	line-height:50px;
+	margin-left:10px;
+	float:left;
+	}
+.location p a:hover{
+	text-decoration:none;
+	color:#6A6A6A;
+	}
+.content{
+	width:1100px;
+	height:800px;
+	margin:0 auto;
+	}
+.content ul{
+	width:1100px;
+	height:102px;
+	margin-top:10px;
+	position:relative;
+	animation:mydiary 4s ease alternate;
+	transition:all 4s;
+	}
+@keyframes mydiary{
+	25%{ transform:scale(0.1);}
+	
+	75%{ transform: scale(1.2);}
+	100%{ transform:scale(1);}
+	}
+.content ul:nth-child(1){
+	animation-delay:0s;
+	}
+.content ul li:nth-child(1){
+	border-radius:50%;
+	overflow:hidden;
+	float:left;
+	}
+.content ul li:nth-child(2){
+	width:15px;
+	height:15px;
+	border-radius:50%;
+	background:#CCC;
+	border:3px solid #FFF;
+	float:left;
+	margin:39px 10px;
+	}
+.content ul li:nth-child(3){
+	width:957px;
+	height:100px;
+	border:1px solid #6D6D6D;
+	border-radius:5px;
+	background: #F2F2F2;
+	}
+
+.content ul li:nth-child(3) p{
+	font-size:14px;
+	font-family:Tahoma, Geneva, sans-serif;
+	line-height:40px;
+	text-indent:1em;
+	}
+.content ul li:hover{
+	background: #999;
+	}
+.content ul li:nth-child(3) span{
+	display:block;
+	color:#FFF;
+	float:right;
+	background:#FF6A6A;
+	width:100px;
+	height:25px;
+	border-radius:5px;
+	text-align:center;
+	line-height:25px;
+	margin-right:5px;
+	margin-top:30px;
+	}
