@@ -23,22 +23,23 @@ body{
 	margin-top:45px;
 	margin-left:450px;
 	}
-.box-text li{
+.box-text li{/*盒子里的li*/
 	padding-top:10px;
 	display:block;
 	text-align:center;
 	font-weight:bold;
 	position:relative;
-	animation-name:myfirst;
-	animation-duration:3s;
-	animation-timing-function: ease-out;
-	animation-direction: alternate;
-	animation-play-state:running;
+	/*上面都是设置li属性的，下面是文字移动*/
+	animation-name:myfirst;/*名字，要和下面那个一致*/
+	animation-duration:3s;/*动画总共需要的时间*/
+	animation-timing-function: ease-out;/*动画的播放速度*/
+	animation-direction: alternate;/*是否逆向播放，这个意思是*/
+	animation-play-state:running;/*这个不写也没事，因为这个属性默认就是running*/
 	}
 @keyframes myfirst
 {
-0%   {left:0px; top:0px;}
-100%  {left:100px; top:0px;}
+0%   {left:0px; top:0px;}/*没开始的时候位置*/
+100%  {left:100px; top:0px;}/*开始后的位置*/
 
 }
 .box-text li:nth-child(1){
