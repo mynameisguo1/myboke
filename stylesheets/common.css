@@ -5,11 +5,11 @@ body{
 	}
 .header{
 	width:1100px;
-	height:145px;
+	height:200px;
 	border-radius:5px;
-	background: url(../images/banner_top.jpg);
-	background-size:100%;
-	margin:0 auto;
+	background:url(../images/banner_top.jpg);
+	background-position:right;
+	margin:10px auto;
 	overflow:hidden;
 	}
 .header img{
@@ -20,8 +20,8 @@ body{
 	width:300px;
 	height:70px;
 	float:left;
-	margin-top:20px;
-	margin-left:150px;
+	margin-top:45px;
+	margin-left:450px;
 	}
 .box-text li{
 	padding-top:10px;
@@ -32,7 +32,7 @@ body{
 	animation-name:myfirst;
 	animation-duration:3s;
 	animation-timing-function: ease-out;
-	animation-direction: normal;
+	animation-direction: alternate;
 	animation-play-state:running;
 	}
 @keyframes myfirst
@@ -57,32 +57,60 @@ body{
 	float:right;
 	}
 .header-rightimg img{
-	width:200px;
+	width:250px;
 	float:right;
 	transform: rotate(-40deg);
 	}
-.nav ul{
+.nav{
 	width:1100px;
-	height:55px;
-	background: #0CF;
+	height:100px;
 	margin:0 auto;
-	border-radius:5px;
+	background:#FFF;
+	}
+.nav img{
+	height:60px;
+	margin-top:20px;
+	float:left;
+	clear:left;
+	}
+.nav ul:nth-child(1){
+	margin-left:50px;
+	}
+.nav ul{
+	color: #505050;
+	float:left;
+	margin-top:40px;
+	margin-left:50px;
+	position:relative;
 	}
 .nav ul li{
-	width:150px;
-	height:55px;
-	line-height:55px;
-	color:#FFF;
-	font-size:24px;
-	text-align:center;
+	font-weight:bold;
 	}
 .nav ul li a{
-	color:#FFF;
+	color:#666;
 	text-decoration:none;
 	}
-.nav ul li:hover{
-	background:#F09;
-	border-radius:5px;
+.nav ul li ul{
+	position:absolute;
+	margin:0;
+	padding:0;
+	display:none;
+	}
+.nav ul li ul li{
+	font-size:14px;
+	font-weight:normal;
+	}
+.nav ul li:nth-child(1):hover ul{
+	display:block;
+	animation:run 1s ease alternate;
+	}
+.nav ul li:nth-child(2):hover ul{
+	display:block;
+	animation:run 1s ease alternate;
+	}
+@keyframes run{
+	0%{left:0; top:0px; opacity:0;}
+	100%{ left:0; top:20px; opacity:1;}
 	}
 	
 /*下面是尾部*/
