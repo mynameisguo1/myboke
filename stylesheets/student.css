@@ -1,6 +1,14 @@
 @charset "utf-8";
 /* CSS Document */
-
+#nav-div-1{
+	background: #0CC;
+	}
+#nav-div-2{
+	background: #FC6;
+	}
+#nav-div-3{
+	background:#396;
+	}
 .nav ul li:nth-child(3){
 	background:#F09;
 	border-radius:5px;
