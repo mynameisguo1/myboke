@@ -29,6 +29,9 @@
 	display: block;
 	padding-top:10px;
 	}
+.contenttop-left ul li:nth-child(1){
+	padding:0;
+	}
 .contenttop-left ul li img{
 	width:83px;
 	}

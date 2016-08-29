@@ -155,6 +155,7 @@
 .search input{
 	border:none;
 	background:#FFF;
+	height:40px; color:#616161;
 	}
 .form{
 	border:1px solid #9B9B9B;
@@ -248,4 +249,7 @@
 	text-indent:2em;
 	display:block;
 	font-size:14px;
+	}
+.personal-information ul li:nth-child(7){
+	line-height:25px;
 	}

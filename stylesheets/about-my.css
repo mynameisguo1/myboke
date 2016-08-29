@@ -1,6 +1,14 @@
 @charset "utf-8";
 /* CSS Document */
-
+#nav-div-1{
+	background: #0CC;
+	}
+#nav-div-2{
+	background: #FC6;
+	}
+#nav-div-3{
+	background:#396;
+	}
 .nav ul li:nth-child(2){
 	background:#F09;
 	border-radius:5px;
@@ -107,6 +115,7 @@
 .search input{
 	border:none;
 	background:#FFF;
+	height:40px; color:#616161;
 	}
 .form{
 	border:1px solid #9B9B9B;
@@ -200,4 +209,7 @@
 	text-indent:2em;
 	display:block;
 	font-size:14px;
+	}
+.personal-information ul li:nth-child(7){
+	line-height:25px;
 	}
