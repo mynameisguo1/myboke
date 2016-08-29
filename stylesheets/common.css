@@ -77,7 +77,7 @@ body{
 	animation-name:myfirst;/*名字，要和下面那个一致*/
 	animation-duration:3s;/*动画总共需要的时间*/
 	animation-timing-function: ease-out;/*动画的播放速度*/
-	animation-direction: alternate;/*是否逆向播放，这个意思是*/
+	animation-direction: alternate;/*是否逆向播放，这个意思是逆向*/
 	animation-play-state:running;/*这个不写也没事，因为这个属性默认就是running*/
 	}
 @keyframes myfirst

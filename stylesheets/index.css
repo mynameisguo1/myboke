@@ -127,7 +127,6 @@
 	}
 .commend{
 	width:1100px;
-	height:1400px;
 	margin:0px auto;
 	background:#FFF;
 	}
@@ -225,7 +224,7 @@
 .commend-content-middle{
 	float:left;
 	width:10px;
-	height:1000px;
+	height:1350px;
 	background:url(../images/h_line.jpg);
 	margin-left:10px;
 	margin-right:10px;
@@ -233,6 +232,7 @@
 .commend-content-right{
 	float:left;
 	width:270px;
+	height:1000px;
 	}
 .commend-content-right p{
 	font-size:14px;

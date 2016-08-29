@@ -9,3 +9,6 @@ a{text-decoration:none;}
 a:link{color:#009;} 
 a:visited{color:#800080;} 
 a:hover,a:active,a:focus{color:#c00;text-decoration:underline;} 
+
+.clearfix:after{content:"1";clear:both;visibility:hidden;display:block;
+overflow:hidden;}
